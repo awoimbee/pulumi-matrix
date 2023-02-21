@@ -1,0 +1,19 @@
+{
+    "name": "pulumi-matrix",
+    "main": "index.ts",
+    "type": "module",
+    "scripts": {
+        "lint": "./node_modules/eslint/bin/eslint.js . --ext .ts,.tsx",
+        "lint-fix": "./node_modules/eslint/bin/eslint.js . --ext .ts,.tsx --fix"
+    },
+    "devDependencies": {
+        "@types/node": "^16",
+        "eslint": "^8.0.0",
+        "eslint-config-standard": "^17.0.0",
+        "typescript": "^4.5.0"
+    },
+    "dependencies": {
+        "@pulumi/kubernetes": "^3.24.1",
+        "@pulumi/pulumi": "^3.0.0"
+    }
+}
